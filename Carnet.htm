@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta >
+	<title>Carnet d'adresse</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/jvsc.js"> </script>
+	<script src="js/class.js"></script>
+	<script src="js/form.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body>
+<header id="toolbar" style=" background-color:#008080"> <!-- #104E8B-->
+	<b><p style="font-family: 'Calibri light',sans-serif; font-size: 35px ;margin-left: 80px ;line-height: 70px ;color: white">Carnet d'adresse</p></b>
+	<div class="wrapper">
+		<div class="search-box">
+			<input type="text" class="input" placeholder="search" >
+			<div class="btn">
+				<i class="fa fa-search"></i>
+			</div>
+		</div>
+	</div>
+</header> 
+<div id="nav" >
+	<div id="Alphabet">
+		<div><img id="plus" src="alphabet/plus.png" height="80px" width="80px" style="margin-top: 10px"></div>
+		<!--<div><img id="all" src="alphabet/All.png" height="70px" width="70px"></div>
+		<!--<div><img id="A" src="alphabet/A.png" height="70px" width="70px"></div>-->
+		<!--<p id="All" style=" font-size: 50px; font-family: 'open Sans Condensed' ; color: #87cefa; padding-bottom: 20px" id="A">All</p>-->
+		<p id="A">A</p>
+		<p  id="B">B</p>
+		<p  id="C">C</p>
+		<p  id="D">D</p>
+		<p  id="E">E</p>
+		<p  id="F">F</p>
+		<p  id="G">G</p>
+		<p  id="H">H</p>
+		<p  id="I">I</p>
+		<p  id="J">J</p>
+		<p  id="K">K</p>
+		<p  id="L">L</p>
+		<p  id="M">M</p>
+		<p  id="N">N</p>
+		<p  id="O">O</p>
+		<p  id="P">P</p>
+		<p  id="Q">Q</p>
+		<p  id="R">R</p>
+		<p  id="S">S</p>
+		<p  id="T">T</p>
+		<p  id="U">U</p>
+		<p  id="V">V</p>
+		<p  id="W">W</p>
+		<p  id="X">X</p>
+		<p  id="Y">Y</p>
+		<p  id="Z">Z</p>
+	</div>
+	<div id="contact" style="margin-top:5px;margin-left:10px">
+			<div class="letter" id="contactA" style="display: none;margin-left:30px;margin-bottom:30px"></div>
+			<div class="letter" id="contactB" style="display: none ; margin-left: 30px;"></div>
+			<div class="letter" id="contactC" style="display: none"></div> 
+		
+			<div class="main" style="display: none ">
+				<form class="form" method="post" action="#">
+					<div id="headfrom">
+						<h2 >Add Contact</h2>
+						<p id="exit" >X</p> 
+					</div>
+					<hr>
+					<div id="info">
+						<div id="labels">
+							<label >Firstname </label><br>
+							<label >Lastname</label><br>
+							<label >Email</label><br>
+							<label >Numero</label><br>
+							<label >Adresse</label><br>
+							<label >Siteweb</label><br>
+						</div>
+						<div id="inputs">
+							<input type="text" name="dfname" id="fname">
+							<input type="text" name="dlname" id="lname">
+							<input type="text" name="demail" id="email">
+							<input type="text" name="dnum" id="num">
+							<input type="text" name="dadd" id="add">
+							<input type="text" name="dsite" id="site">
+						</div>
+					</div>
+					<div id="subm"><input type="button" name="register" id="register" ></div>
+				</form>
+			</div>
+	</div>
+</div>
+
+
+</body>
+</html>
