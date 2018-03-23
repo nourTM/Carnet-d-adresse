@@ -1,0 +1,108 @@
+	.wrapper{
+		position :absolute;
+		top: 2%;
+		left: 70%;
+		transform: translate(-5%,-5%);
+	}
+	.search-box{
+		width:450px;
+		height: 100px;
+		position: relative;
+	}
+	.input{
+		position :absolute;
+		top: 2px;
+		box-sizing: border-box;
+		width: 0px;
+		height: 36px;
+		border: none;	
+		border-radius: 50px;
+		padding: 0 20px;
+		outline: none;
+		font-size: 18px;
+		color: #29313a;
+		transition: all 0.8s ease;
+		right: 140px;
+	}
+	.btn{
+		position: absolute;
+		border: none;
+		width: 45px;
+		height: 45px;
+		background: #2F4F4F	;
+		border-radius: 50%;
+		cursor: pointer;
+		text-align: center;
+		line-height: 28px;
+		font-size: 20px;
+		color: #fff;
+		right: 136px;
+		transition: all 0.8s ease;
+	}
+	::-webkit-input-placeholder{
+		color: :white;
+	}
+	::-moz-input-placeholder{
+		color: : white;
+	}
+     ::-ms-input-placeholder{
+		color: :white;
+	}
+	#nav{
+		display:block;
+		width: 100%;
+	}
+	#nav #Alphabet{
+		position: relative;
+		float: left;
+		width: 100px;
+	
+		/*margin-right: 5px;*/
+		border-top: none;
+		border-left: none;
+		border-bottom: none;
+		border-right: 2px solid #008080	;
+		cursor: pointer;
+			width: 5%;
+	}
+	#nav #contact{
+		position: relative;
+		float: middle;
+		width: 50%;
+		z-index: 3;
+         display: inline-block;
+	}
+	.letter{
+	
+	}
+	/*#nav #mind{
+		float: right;
+		position: absolute;
+		width: 5%;
+
+	}*/
+	.input.active{
+		
+		width: 300px;
+
+	}
+	.btn.animate{
+		
+	transform: rotate(-360deg);
+
+	}
+	#Alphabet p{
+		margin-left: 20px; 
+		font-size: 50px; 
+		font-family: 'Calibri' ; 
+		color:	#2F4F4F;/*#008080	;/* #236B8E;/*#104E8B;/* #0276FD;/* #FFF694/#87cefa; */;
+		padding-bottom: 20px;
+		font-weight: bold;
+	}
+/*#contactA{
+		z-index: 3;
+		position: absolute;
+		display: inline-block;
+	}*/
+
+
