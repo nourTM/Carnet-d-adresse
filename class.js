@@ -142,7 +142,7 @@ function affichercontact(clas,T,n,l){
 		$("#info"+l+n).append(email);
 		var setting = $("<div></div>").attr("id","setting"+l+n).css({"width":"10%","height":"70px","float":"right"});//.width(80%);
 		$("#c"+l+n).append(setting);
-		var supp = $("<img>").attr("src","trash.png").css({"height":"15px","width":"15px"});
+		var supp = $("<img>").attr("src","trash.png").css({"height":"20px","width":"20px"});
 		$("#setting"+l+n).append(supp);
 		var hr = document.createElement("hr");
 		$("#"+clas).append(hr);
