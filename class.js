@@ -1,4 +1,4 @@
-var i =0;
+var ii =0;
 
 /*a*/
 var A = [];
@@ -146,18 +146,18 @@ function affichercontact(clas,T,n,l){
 
 
 function ListerA(){
-	for(i=0;i<a;i++){
+	for(ii=0;ii<a;ii++){
 		affichercontact("contactA",A);
 	}
 }
 
 function ListerB(){
-	for(i=0;i<b;i++){
+	for(ii=0;ii<b;i++){
 		affichercontact("contactB",B);
 	}
 }
 function ListerC(){
-	for(i=0;i<c;i++){
+	for(ii=0;i<c;ii++){
 		affichercontact("contactC",C);
 	}
 }
