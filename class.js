@@ -128,7 +128,7 @@ function Contact(nom,prenom,adresse,email,numero,siteweb){
 function affichercontact(clas,T,n,l){
 		var div = $("<div></div>").attr("id","c"+l+n).css({"width":"100%","height":"70px","position":"relative","z-index":"1"});//.width(100);"margin-top":"9px""display":"inline-block",
 		$("#"+clas).append(div);
-		var image = $("<div></div>").attr("id","image"+l+n).css({"width":"30%","float":"left","height":"70px","padding-top":"10px"});//.width(20%);
+		var image = $("<div></div>").attr("id","image"+l+n).css({"width":"15%","float":"left","height":"70px","padding-top":"10px"});//.width(20%);
 		$("#c"+l+n).append(image);
 		var user = $("<img>").attr("src",T[n-1].img).css({"height":"60px","width":"60px"});//.width(60).height(60);
 		$("#image"+l+n).append(user);
