@@ -132,7 +132,11 @@ function affichercontact(clas,T,n,l){
 		$("#c"+l+n).append(image);
 		var user = $("<img>").attr("src",T[n-1].img).css({"height":"60px","width":"60px"});//.width(60).height(60);
 		$("#image"+l+n).append(user);
-		var info = $("<div></div>").attr("id","info"+l+n).css({"width":"50%","height":"70px","float":"middle"});//.width(80%);
+		var setting = $("<div></div>").attr("id","setting"+l+n).css({"width":"10%","height":"70px","float":"right"});//.width(80%);
+		$("#c"+l+n).append(setting);
+		var supp = $("<img>").attr("src","trash.png").css({"height":"20px","width":"20px"});
+		$("#setting"+l+n).append(supp);
+		var info = $("<div></div>").attr("id","info"+l+n).css({"width":"50%","height":"70px","float":"right"});//.width(80%);
 		$("#c"+l+n).append(info);
 		var nom = $("<p></p>").text(T[n-1].nom);
 		$("#info"+l+n).append(nom);
@@ -140,10 +144,6 @@ function affichercontact(clas,T,n,l){
 		$("#info"+l+n).append(prenom);
 		var email = $("<p></p>").text(T[n-1].email);
 		$("#info"+l+n).append(email);
-		var setting = $("<div></div>").attr("id","setting"+l+n).css({"width":"10%","height":"70px","float":"right"});//.width(80%);
-		$("#c"+l+n).append(setting);
-		var supp = $("<img>").attr("src","trash.png").css({"height":"20px","width":"20px"});
-		$("#setting"+l+n).append(supp);
 		var hr = document.createElement("hr");
 		$("#"+clas).append(hr);
 }
