@@ -140,6 +140,10 @@ function affichercontact(clas,T,n,l){
 		$("#info"+l+n).append(prenom);
 		var email = $("<p></p>").text(T[n-1].email);
 		$("#info"+l+n).append(email);
+		var setting = $("<div></div>").attr("id","setting"+l+n).css({"width":"10%","margin-left":"5px","height":"70px","float":"right"});//.width(80%);
+		$("#c"+l+n).append(setting);
+		var supp = $("<img>").attr("src","trash.png").css({"height":"5px","width":"5px"});
+		$("#setting"+l+n).append(supp);
 		var hr = document.createElement("hr");
 		$("#"+clas).append(hr);
 }
