@@ -136,6 +136,8 @@ function affichercontact(clas,T,n,l){
 		$("#c"+l+n).append(setting);
 		var supp = $("<img>").attr("src","trash.png").css({"height":"20px","width":"20px"});
 		$("#setting"+l+n).append(supp);
+		var modf = $("<img>").attr("src","modifier.png").css({"height":"20px","width":"20px"});
+		$("#setting"+l+n).append(modf);
 		var info = $("<div></div>").attr("id","info"+l+n).css({"width":"50%","height":"70px","float":"right"});//.width(80%);
 		$("#c"+l+n).append(info);
 		var nom = $("<p></p>").text(T[n-1].nom);
