@@ -136,7 +136,7 @@ function affichercontact(clas,T,n,l){
 		$("#c"+l+n).append(setting);
 		var modf = $("<img>").attr("src","modifier.png").css({"height":"30px","width":"30px"});
 		$("#setting"+l+n).append(modf);
-		var supp = $("<img>").attr("src","trash.png").css({"height":"30px","width":"30px","margin-top":"10px"});
+		var supp = $("<img>").attr("src","trash.png").css({"height":"30px","width":"30px","margin-top":"15px"});
 		$("#setting"+l+n).append(supp);
 		var info = $("<div></div>").attr("id","info"+l+n).css({"width":"50%","height":"70px","float":"right"});//.width(80%);
 		$("#c"+l+n).append(info);
