@@ -132,12 +132,12 @@ function affichercontact(clas,T,n,l){
 		$("#c"+l+n).append(image);
 		var user = $("<img>").attr("src",T[n-1].img).css({"height":"60px","width":"60px"});//.width(60).height(60);
 		$("#image"+l+n).append(user);
-		var setting = $("<div></div>").attr("id","setting"+l+n).css({"width":"30px","height":"70px","float":"right"});//.width(80%);
+		/*var setting = $("<div></div>").attr("id","setting"+l+n).css({"width":"30px","height":"70px","float":"right"});//.width(80%);
 		$("#c"+l+n).append(setting);
 		var modf = $("<img>").attr("src","modifier.png").css({"height":"30px","width":"30px"});
 		$("#setting"+l+n).append(modf);
 		var supp = $("<img>").attr("src","trash.png").css({"height":"30px","width":"30px","margin-top":"15px"});
-		$("#setting"+l+n).append(supp);
+		$("#setting"+l+n).append(supp);*/
 		var info = $("<div></div>").attr("id","info"+l+n).css({"width":"50%","height":"70px","float":"right"});//.width(80%);
 		$("#c"+l+n).append(info);
 		var nom = $("<p></p>").text(T[n-1].nom);
