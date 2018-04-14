@@ -70,7 +70,7 @@
 		float: middle;
 		width: 50%;
 		z-index: 3;
-         display: inline-block;
+         display: block;
 	}
 	.letter{
 	
