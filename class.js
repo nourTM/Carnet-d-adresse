@@ -146,8 +146,8 @@ function affichercontact(clas,T,n,l){
 		$("#info"+l+n).append(prenom);
 		var email = $("<p></p>").text(T[n-1].email);
 		$("#info"+l+n).append(email);
-		var hr = document.createElement("hr");
-		$("#"+clas).append(hr);
+		/*var hr = document.createElement("hr");
+		$("#"+clas).append(hr);*/
 }
 
 
